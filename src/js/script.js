@@ -16,4 +16,8 @@ console.log(exemplo)
 
 //tipos de variaveis
 
-let 
+let ex1 ="Fiap";
+console.log(typeof ex1)
+
+let ex2 =25
+console.log(typeof ex2)
