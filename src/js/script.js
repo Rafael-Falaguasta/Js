@@ -21,3 +21,25 @@ console.log(typeof ex1)
 
 let ex2 =25
 console.log(typeof ex2)
+
+
+//CONVERSOES    
+
+// FLOAT => STRING 
+
+let numFloat =123.456
+console.log(numFloat.toString())
+
+//string => float
+
+let numstring ="12.963"
+console.log(parseFloat(numstring))
+
+// int => string
+
+let numint = 10
+console.log(numint.toString())
+
+
+let numString ="120"
+console.log(parseInt(numString))
