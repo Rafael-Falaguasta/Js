@@ -43,3 +43,23 @@ console.log(numint.toString())
 
 let numString ="120"
 console.log(parseInt(numString))
+
+//METODOS   
+
+//METODO LENGTH - VERIFICA O TAMANHO DA STRING
+
+let frase ="O mundo da tecnologia"
+console.log(frase.length)
+
+//METODO indexof/lastindexOf -RETORNA UM TRECHO DO SEU CODIGO
+
+let texto ="Programação sustentavel";
+console.log(texto.indexOf("ão"))
+
+//METODO SLICE = RETORNA PARTE DO TEXTO PASSANDO O INICIO E O FINAL
+
+let info ="Programação de ponta";
+console.log(info.slice(14,20))
+
+//OPERADORES ARITIMETICOS
+
