@@ -160,14 +160,22 @@ console.log(final);
 
 //JOGO DE ADIVINHA
 
-let palpite;
+// let palpite;
 
-const sorteio = Math.floor(Math.random() * 10)+1;
+// const sorteio = Math.floor(Math.random() * 10)+1;
 
-do{
-    palpite =parseInt(prompt("Escolha um numero entre 1 e 10"))
+// do{
+//     palpite =parseInt(prompt("Escolha um numero entre 1 e 10"))
 
-}while(palpite !== sorteio)
+// }while(palpite !== sorteio)
 
-alert(`parabens voce ganhou o jogo ${palpite}`)
+// alert(`parabens voce ganhou o jogo ${palpite}`)
+
+//funçoes
+
+function saudacao(NOME){
+    console.log(`Seja Bem-Vindo`,NOME)
+    console.log(`Seja Bem-Vindo${NOME}`)
+}
+saudacao("Fiap")
 
