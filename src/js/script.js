@@ -157,3 +157,7 @@ console.log(resultado);
 let valor2 = 6
 let final = valor2 <= 6 ? "Passou": "Reprovado";
 console.log(final);
+
+//JOGO DE ADIVINHA
+
+let palpite;
